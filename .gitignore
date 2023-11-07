@@ -396,3 +396,16 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Terraform
+.terraform
+*.tfstate*
+*.tfplan
+*.tfvars
+*.tfvars.json
+*.terraform.lock.hcl
+
+# Azure CLI
+*.azureauth
+terraform.tfvars
+launchSettings.json
